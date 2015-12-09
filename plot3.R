@@ -39,6 +39,6 @@ g <- ggplot(aggregatedTotalByYearAndType, aes(year, Emissions, color = type))
 g <- g + geom_line() +
   xlab("year") +
   ylab(expression('Total PM'[2.5]*" Emissions")) +
-  ggtitle('Total Emissions in Baltimore City, Maryland (FIP: 24510) from 1999 to 2008')
+  ggtitle('Total Emissions in Baltimore City, Maryland (FIP: 24510) [1999 to 2008]')
 print(g)
 dev.off()
